@@ -1,0 +1,36 @@
+[
+ {
+  "class":"text-5xl font-semibold tracking-tight  ",
+  "content":"Introducing <h1>Man-GO v1</h1>",
+  "attr":{
+    "id":"manju",
+    "name":"hello",
+    "array":[
+      "fras","bbg"
+    ],
+    "jsonObject":{
+      "key":"Value"
+    }
+  },
+  "inblock":[
+    {
+      "class":"inblock",
+      "content":"Excellent"
+    },
+    {
+      "class":"header",
+      "content":"<h1>Super power</h1>"
+    }
+  ],
+  
+  "block":"manju.json"
+ },
+ 
+ {
+  "class":"dsf",
+  "content":"<h2>Build and run Go web apps instantly, skipping the installation and build steps. </h2>",
+  "attr":{
+    "id":"sjfsd"
+  }
+ }
+]
