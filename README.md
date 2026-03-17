@@ -15,7 +15,7 @@ Creating A new Module / APP
   <pre> [
     {
      "class":"content",
-     "content":"<h1>Hello World</h1>"
+     "content":"Hello World"
     },
     {
      "class":"subtilte",
