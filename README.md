@@ -12,7 +12,7 @@ Creating A new Module / APP
  Update the myapp.json file and run
  Example:
 
-   [
+  <pre> [
     {
      "class":"content",
      "content":"<h1>Hello World</h1>"
@@ -22,6 +22,7 @@ Creating A new Module / APP
      "content":"Buliding Application in GO"
     }
    ]
+   </pre>
 
  create a  header_scripts.txt, footer_scripts.txt files in myapp folder
 
