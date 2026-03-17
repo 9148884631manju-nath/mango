@@ -1,0 +1,15 @@
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.min.js" integrity="sha384-/TgkGk7p307TH7EXJDuUlgG3Ce1UVolAOFopFekQkkXihi5u/6OCvVKyz1W+idaz" crossorigin="anonymous"></script>
+<style>
+body{padding:20px;font-size:100%;}
+body h1{font-size:150%}
+.info{
+ padding:20px;
+ border:2px solid #333;
+ border-radius:25px;
+ margin:25px 0px;
+}
+.info h3{
+ font-size:200%;
+}
+</style>

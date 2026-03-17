@@ -1,7 +1,11 @@
 package lib
 
-func HtmlJson(data interface{}) string {
+import (
+	"github.com/gin-gonic/gin"
+)
+
+func HtmlJson(data interface{}, c *gin.Context) string {
 	res := ""
-	res = RenderHTML(data.(string))
+	res = RenderHTML(data.(string), c)
 	return res
 }

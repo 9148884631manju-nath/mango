@@ -1,8 +1,33 @@
 [
+  {
+    "getdata":{
+      "db":"mysql__newsrs",
+      "query":"select user_name, user_phone from app_register_info limit 0,2",
+      "flds":"user_name,user_phone",
+      "vals":"$username,$phone",
+      "err":"No Data__XER",
+      "suc":"__XSC",
+      "errortheme":[
+        {
+          "class":"error",
+          "content":"Data Error : XER"
+        }
+      ],
+      "theme":[
+        {
+          "class":"item",
+          "inblock":[
+            {
+              "content":"$username - $phone"
+            }
+          ]
+        }
+      ]
+    }
+  },
  {
   "class":"text-5xl font-semibold tracking-tight  ",
-  "content":"Introducing <h1>Man-GO v1</h1>",
-  "attr":{
+  "xattr":{
     "id":"manju",
     "name":"hello",
     "array":[
@@ -14,16 +39,27 @@
   },
   "inblock":[
     {
-      "class":"inblock",
-      "content":"Excellent"
+      "content":"Introducing <h1>Man-GO v1</h1>$name<br/><br/><h4>asdfasd</h4>hello"
     },
     {
-      "class":"header",
-      "content":"<h1>Super power</h1>"
+      "xblock":"manju.json"
+    },
+    {
+      "xinblock":[
+        {
+          "class":"inblock",
+          "content":"Excellent $name"
+        },
+        {
+          "class":"header",
+          "content":"<h1>Super power</h1>"
+        }
+      ]
     }
   ],
-  
-  "block":"manju.json"
+  "keys":[
+    ["request","name","$name","Default Request Value for $name",""]
+  ]
  },
  
  {
@@ -32,5 +68,19 @@
   "attr":{
     "id":"sjfsd"
   }
+ },
+ {
+  "class":"info",
+  "inblock":[
+      {
+        "content":"<h3>Creating a New Module or APP</h3>"
+      },
+      {
+        "content":"<p>Create A App Folder any myapp </p>"
+      },
+      {
+        "content":"<p>Create A App Root File any myapp.json </p>"
+      }
+  ]
  }
 ]
